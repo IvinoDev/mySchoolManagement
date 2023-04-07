@@ -13,7 +13,7 @@ def create_result(request):
   students = Student.objects.all()
   if request.method == 'POST':
 
-    #after visiting the second page
+    #* after visiting the second page
     if 'finish' in request.POST:
       form = CreateResults(request.POST)
       if form.is_valid():
@@ -41,7 +41,7 @@ def create_result(request):
         Result.objects.bulk_create(results)
         return redirect('edit-results')
 
-    #after choosing students
+    #* after choosing students
     id_list = request.POST.getlist('students')
     if id_list:
       form = CreateResults(initial={"session": request.current_session, "term":request.current_term})

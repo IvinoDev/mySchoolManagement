@@ -23,7 +23,7 @@ class StaffCreateView(SuccessMessageMixin, CreateView):
     success_message = 'New staff successfully added'
 
     def get_form(self):
-        '''add date picker in forms'''
+        #* add date picker in forms'''
         form = super(StaffCreateView, self).get_form()
         form.fields['date_of_birth'].widget = widgets.DateInput(
             attrs={'type': 'date'})

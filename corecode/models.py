@@ -1,11 +1,11 @@
 from django.db import models
 from django.utils import timezone
 from django.urls import reverse
-# Create your models here.
+#? Create your models here.
 
 
 class SiteConfig(models.Model):
-  """ Site Configurations """
+  #* Site Configurations
   key = models.SlugField()
   value = models.CharField(max_length=200)
 
@@ -14,7 +14,7 @@ class SiteConfig(models.Model):
 
 
 class AcademicSession(models.Model):
-  """ Academic Session """
+  #* Academic Session
   name = models.CharField(max_length=200, unique=True)
   current = models.BooleanField(default=True)
 
@@ -26,7 +26,7 @@ class AcademicSession(models.Model):
 
 
 class AcademicTerm(models.Model):
-  """ Academic Term """
+  #* Academic Term
   name = models.CharField(max_length=20, unique=True)
   current = models.BooleanField(default=True)
 
@@ -38,7 +38,7 @@ class AcademicTerm(models.Model):
 
 
 class Subject(models.Model):
-  """ Subject """
+  #* Subject 
   name = models.CharField(max_length=200, unique=True)
 
   class Meta:

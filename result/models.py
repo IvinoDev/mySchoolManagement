@@ -5,7 +5,7 @@ from students.models import Student
 
 from .utils import score_grade
 
-# Create your models here.
+#! Create your models here.
 class Result(models.Model):
   student = models.ForeignKey(Student, on_delete=models.CASCADE)
   session = models.ForeignKey(AcademicSession, on_delete=models.CASCADE)
