@@ -36,13 +36,13 @@
     <div class="container-login100">
         <div class="wrap-login100">
             <div class="login100-pic js-tilt" style="width: 400px;">
-                <img src="{% static 'dist/img/login.png' %}">
+                <img src="{% static 'dist/img/login2.gif' %}">
             </div>
 
             <form class="login100-form validate-form" method="post" action="{% url 'login' %}">
                 {% csrf_token %}
                 <span class="login100-form-title">
-                   {{ school_name }}
+                   MaliSchool
                                 </span>
                 <span class="error-msg"> 
                     {% if form.errors %}

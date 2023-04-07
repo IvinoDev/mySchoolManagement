@@ -19,12 +19,13 @@
 
 body, html {
 	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
+	/* font-family: ""Poppins"", sans-serif; */
+	font-family: "Poppins" !important;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Poppins-Regular;
+	font-family: "Poppins" !important;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -50,7 +51,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Poppins-Regular;
+	font-family: "Poppins" !important;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -117,14 +118,14 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Poppins-Regular;
+  font-family: "Poppins" !important;
   font-size: 13px;
   line-height: 1.5;
   color: #999999;
 }
 
 .txt2 {
-  font-family: Poppins-Regular;
+  font-family: "Poppins" !important;
   font-size: 13px;
   line-height: 1.5;
   color: #666666;
@@ -152,10 +153,10 @@ iframe {
   align-items: center;
   padding: 15px;
   background: #514858;
-  background: -webkit-linear-gradient(-135deg, #968f8e, #241d20);
-  background: -o-linear-gradient(-135deg, #968f8e, #241d20);
-  background: -moz-linear-gradient(-135deg, #968f8e, #241d20);
-  background: linear-gradient(-135deg,#968f8e, #241d20 );
+  background: -webkit-linear-gradient(-135deg, #968f8e, #b0b0b0);
+  background: -o-linear-gradient(-135deg, #968f8e, #b0b0b0);
+  background: -moz-linear-gradient(-135deg, #968f8e, #b0b0b0);
+  background: linear-gradient(-135deg,#968f8e, #b0b0b0 );
  
 }
 
@@ -192,7 +193,7 @@ iframe {
 }
 
 .login100-form-title {
-  font-family: Poppins-Bold;
+  font-family: "Poppins" !important;
   font-size: 24px;
   color: #333333;
   line-height: 1.2;
@@ -214,7 +215,7 @@ iframe {
 }
 
 .input100 {
-  font-family: Poppins-Medium;
+  font-family: "Poppins" !important;
   font-size: 15px;
   line-height: 1.5;
 
@@ -305,7 +306,7 @@ iframe {
 }
 
 .login100-form-btn {
-  font-family: Montserrat-Bold;
+  font-family: "Poppins" !important;
   font-size: 15px;
   line-height: 1.5;
   color: #fff;
@@ -407,7 +408,7 @@ iframe {
   right: 8px;
   pointer-events: none;
 
-  font-family: Poppins-Medium;
+  font-family: "Poppins" !important;
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;
